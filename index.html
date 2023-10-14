@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Satabdisundar's Education Hub</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <style>
+      body{
+        background-image: url('./Images/bg-texture.png');
+      }
+    </style>
+    <link rel="icon" href="./Images/favicon.png" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html"
+          ><img src="./Images/logoNBorder2.png" height="50" alt=""
+        /></a>
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+        <button id="close-menu-btn"><i class="fa-solid fa-x"></i></button>
+      </div>
+    </nav>
+    <!-- header scetion -->
+    <header>
+      <div class="container header__container">
+        <div class="header__left">
+          <h1>Let your skills get developed to bring a change</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ut
+            optio earum fugiat at obcaecati rem architecto rerum perspiciatis
+            ea.
+          </p>
+          <a href="courses.html" class="btn btn-primary">Buy Courses</a>
+        </div>
+        <div class="header__right">
+          <div class="header__right-image">
+            <img src="./Images/Header.png" alt="" class="img" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- category section -->
+    <section class="categories">
+      <div class="container categories__container">
+        <div class="categories__left">
+          <h1>Categories</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero
+            temporibus dolorum modi hic voluptates quod? Voluptatum deleniti
+            tempora natus velit suscipit asperiores quas delectus nisi. Itaque
+            nihil molestias ratione aliquam!
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="categories__right">
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-brands fa-html5"></i
+            ></span>
+            <h5>HTML</h5>
+            <p>
+              Here you will get to learn HTML from the best teachers available.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-brands fa-css3-alt"></i
+            ></span>
+            <h5>CSS</h5>
+            <p>
+              Here you will get to learn CSS from the best teachers available.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-brands fa-square-js"></i
+            ></span>
+            <h5>JavaScript</h5>
+            <p>
+              Here you will get to learn JavaScript from the best teachers
+              available.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-brands fa-java"></i
+            ></span>
+            <h5>Java</h5>
+            <p>
+              Here you will get to learn Java from the best teachers available.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-brands fa-bootstrap"></i
+            ></span>
+            <h5>Bootstrap</h5>
+            <p>
+              Here you will get to learn Bootstrap from the best teachers
+              available.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-brands fa-react"></i
+            ></span>
+            <h5>React JS</h5>
+            <p>
+              Here you will get to learn React JS from the best teachers
+              available.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- courses section -->
+    <section class="courses">
+      <h2>Our Popular Courses</h2>
+      <div class="container courses__container">
+        <article class="course">
+          <div class="course__image">
+            <img src="./Images/Course1.jpg" alt="" class="img" />
+          </div>
+          <div class="course__info">
+            <h4>Full Stack Java Developement</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              tempore voluptate ut obcaecati quasi aut expedita?
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        <article class="course">
+          <div class="course__image">
+            <img src="./Images/Course2.jpg" alt="" class="img" />
+          </div>
+          <div class="course__info">
+            <h4>Full Stack Python Developement</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              tempore voluptate ut obcaecati quasi aut expedita?
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        <article class="course">
+          <div class="course__image">
+            <img src="./Images/Course3.jpg" alt="" class="img" />
+          </div>
+          <div class="course__info">
+            <h4>Basics Of C Programming</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              tempore voluptate ut obcaecati quasi aut expedita?
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- faq section -->
+    <section class="faqs">
+      <h2>Frequently Asked Questions</h2>
+      <div class="container faqs__container">
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              labore minima ut eius architecto ducimus unde, laboriosam adipisci
+              harum delectus ratione repellat voluptatem, nihil minus incidunt,
+              optio magnam nesciunt animi.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>Are all these courses cover industry standards?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              labore minima ut eius architecto ducimus unde, laboriosam adipisci
+              harum delectus ratione repellat voluptatem, nihil minus incidunt,
+              optio magnam nesciunt animi.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>What if I am from a non IT background?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              labore minima ut eius architecto ducimus unde, laboriosam adipisci
+              harum delectus ratione repellat voluptatem, nihil minus incidunt,
+              optio magnam nesciunt animi.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>Is this course for school students?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              labore minima ut eius architecto ducimus unde, laboriosam adipisci
+              harum delectus ratione repellat voluptatem, nihil minus incidunt,
+              optio magnam nesciunt animi.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>Is this course for college students?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              labore minima ut eius architecto ducimus unde, laboriosam adipisci
+              harum delectus ratione repellat voluptatem, nihil minus incidunt,
+              optio magnam nesciunt animi.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>Is this course for working proffesionals?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              labore minima ut eius architecto ducimus unde, laboriosam adipisci
+              harum delectus ratione repellat voluptatem, nihil minus incidunt,
+              optio magnam nesciunt animi.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>Can I get interview ready after this?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              labore minima ut eius architecto ducimus unde, laboriosam adipisci
+              harum delectus ratione repellat voluptatem, nihil minus incidunt,
+              optio magnam nesciunt animi.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>What are your payment methods?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              labore minima ut eius architecto ducimus unde, laboriosam adipisci
+              harum delectus ratione repellat voluptatem, nihil minus incidunt,
+              optio magnam nesciunt animi.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>Will be the courses easy to understand?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              labore minima ut eius architecto ducimus unde, laboriosam adipisci
+              harum delectus ratione repellat voluptatem, nihil minus incidunt,
+              optio magnam nesciunt animi.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>These courses are in which language?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              labore minima ut eius architecto ducimus unde, laboriosam adipisci
+              harum delectus ratione repellat voluptatem, nihil minus incidunt,
+              optio magnam nesciunt animi.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- testimopnial section -->
+    <section class="container testimonials__container mySwiper">
+      <h2>Student's Testimonials</h2>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./Images/Avatar1.jpg" alt="" class="img" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Pragati Suar</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Veritatis, quod culpa laudantium praesentium magni quos ab modi
+              blanditiis in sequi? Vero laboriosam obcaecati iusto neque nihil
+              repellat dignissimos provident hic!
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./Images/Avatar2.jpg" alt="" class="img" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Asit Maharana</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Veritatis, quod culpa laudantium praesentium magni quos ab modi
+              blanditiis in sequi? Vero laboriosam obcaecati iusto neque nihil
+              repellat dignissimos provident hic!
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./Images/Avatar3.jpg" alt="" class="img" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Abhijit Khilar</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Veritatis, quod culpa laudantium praesentium magni quos ab modi
+              blanditiis in sequi? Vero laboriosam obcaecati iusto neque nihil
+              repellat dignissimos provident hic!
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./Images/Avatar4.jpg" alt="" class="img" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Ashish Nayak</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Veritatis, quod culpa laudantium praesentium magni quos ab modi
+              blanditiis in sequi? Vero laboriosam obcaecati iusto neque nihil
+              repellat dignissimos provident hic!
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./Images/Avatar5.jpg" alt="" class="img" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Swapnajit Panda</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Veritatis, quod culpa laudantium praesentium magni quos ab modi
+              blanditiis in sequi? Vero laboriosam obcaecati iusto neque nihil
+              repellat dignissimos provident hic!
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./Images/Avatar6.jpg" alt="" class="img" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Ashutosh Mallik</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Veritatis, quod culpa laudantium praesentium magni quos ab modi
+              blanditiis in sequi? Vero laboriosam obcaecati iusto neque nihil
+              repellat dignissimos provident hic!
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./Images/Avatar7.jpg" alt="" class="img" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Sambit Barik</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Veritatis, quod culpa laudantium praesentium magni quos ab modi
+              blanditiis in sequi? Vero laboriosam obcaecati iusto neque nihil
+              repellat dignissimos provident hic!
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__1">
+          <a href="index.html"
+            ><img src="./Images/logoNBorder2.png" height="50" alt=""
+          /></a>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam
+            dicta ipsum error.
+          </p>
+        </div>
+
+        <div class="footer__2">
+          <h4>Permalinks</h4>
+          <ul class="permalinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__3">
+          <h4>Privacy</h4>
+          <ul class="privacy">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer__4">
+          <h4>Contact Us</h4>
+          <div>
+            <p>+91 9437771692</p>
+            <p>satabdibehera2309@gmail.com</p>
+          </div>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <small>Copyright &copy; Satabdisundar2309</small>
+    </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          600: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
